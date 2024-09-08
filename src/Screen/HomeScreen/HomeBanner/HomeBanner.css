@@ -1,0 +1,36 @@
+.homeBanner{
+  width: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.homeBannerImg{
+  height: 80vh;
+  width: 100%;
+  mask-image: linear-gradient(to bottom,rgba(0,0,0,1)rgba(0,0,0,0));
+}
+.greyBackgroundHomeBanner{
+  background-color: rgb(238, 235, 285);
+  height: 80vh;
+}
+.homeBannerItemDiv{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  top: 22%;
+  padding: 0 20px;
+  position: absolute;
+}
+.homeBannerItemDivCard{
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  width: 343px;
+  box-sizing: border-box;
+  padding: 20px 0 15px;
+}
+.homeBannerItemDivCardTitle{
+  margin: 0 20px;
+  font-size: 21px;
+  font-weight: 700;
+}
